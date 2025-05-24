@@ -247,17 +247,39 @@ img {
     .home__title{
         font-size: 2rem;
     }
+     .home__images img{
+        right: 0%;
+    }
 }
 @media screen and (min-width:350px)and(max-height:680px){
     .home__container{
         height: 700px;
     }
+   
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px){
+    .home__data{
+        max-width: 380px;
+        margin-inline: auto;
+        
+        
+    }
+    .home__images img{
+        right: 0%;
+        width: initial;
+    }
     
 }
 
+@media screen and (max-width :576px){
+     .home__images img{
+        right: 0%;
+    }
+    
+}
 
-
-/* For medium devices */
 
 
 /* For large devices */
