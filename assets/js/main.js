@@ -39,6 +39,18 @@ window.addEventListener('scroll' , blurHeader)
 
 
 /*=============== GSAP ANIMATION ===============*/
+gsap.from('.home__img-1', {duration: 5 , opacity: 0, x:400})
+gsap.from('.home__img-6', {duration: 1.5 , opacity: 0, y:200, delay: .1, ease: 'back.out(1.5)'})
+gsap.from('.home__img-3', {duration: 1.5 , opacity: 0, y:400, delay: .3, ease: 'back.out(1.5)'})
+gsap.from('.home__img-5', {duration: 1.5 , opacity: 0, y:400, delay: .5, ease: 'back.out(1.5)'})
+gsap.from('.home__img-2', {duration: 1.5 , opacity: 0, y:400, delay: .8, ease: 'back.out(1.5)'})
+gsap.from('.home__img-4', {duration: 1.5 , opacity: 0, y:200, delay: 1.8, ease: 'back.out(1.5)'})
+gsap.from('.home__data', {duration: 1.5 , opacity: 0, y:-100, delay: 2.5, ease: 'back.out(1.5)'})
+gsap.from('.home__lantern-1', {duration: 1.5 , opacity: 0, x:70, delay: 3, ease: 'back.out(1.5)'})
+gsap.from('.home__lantern-2', {duration: 1.5 , opacity: 0, x:-70, delay: 3.5, ease: 'back.out(1.5)'})
+
+
+
 
 
 /*=============== SAKURA ANIMATION ===============*/
